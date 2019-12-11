@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "printWidth": 100,
+        "tabWidth": 2,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ],
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "object-literal-sort-keys": false,
+    "no-submodule-imports": false,
+    "max-classes-per-file": false,
+    "interface-name": false,
+    "interface-over-type-literal": false,
+    "no-console": false,
+    "jsx-no-lambda": false,
+    "radix": false,
+    "no-empty-interface": false,
+    "only-arrow-functions": false,
+    "no-empty": false
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
